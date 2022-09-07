@@ -13,9 +13,82 @@ body {
 }
 
 .container {
-    width: 60%;
+    width: 100vw;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 32px;
+   margin-top: 60px;
+   gap: 20px;
+}
+.cards{
+ width: 80%;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ align-items: center;
+ gap: 10px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.blk-btn{
+    background-color: #000000;
+    border: 1px solid #762675;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.blk-btn:hover{
+    filter: brightness(70%);
+    background-color: #00000091;
+}
+input{
+  padding: 10px;
+  border-radius: 5px;
+}
+.card{
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    max-width: 20vw;
+    margin-bottom: 10px;
+}
+.card h1{
+    overflow-wrap: break-word;
+    width:100%
+
+}
+.row{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.rem{
+    padding: 10px;
+    background-color: #FF5554;
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 5px;
+
+}
+.rem:hover{
+    filter: brightness(70%);
+}
+.pop{
+    background-color: #303030;
+    color: white;
 }
